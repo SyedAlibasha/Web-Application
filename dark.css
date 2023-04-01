@@ -1,0 +1,73 @@
+
+marquee{
+  background-color:#9CA3AF;
+}
+#anounce{
+  background-color:#9CA3AF;
+  color: red;
+}
+footer a{
+  color: rgb(180, 180, 192);
+}
+footer a:hover{
+  color: white;
+}
+nav{
+  background: #5d5f5e;
+}
+.shapes{
+ background-color: #686c70;
+}
+
+.name{
+  color: white;
+}
+a{
+  color: rgb(255, 255, 255);
+}
+#icon{
+  color: rgb(120, 117, 138);
+}
+.active{
+  color:rgb(102, 105, 102);
+  border-bottom: 2px solid white;
+}
+.checkbtn{
+  color: white;
+}
+#icon2{
+  color: rgb(63, 65, 63);
+  border-bottom: 2px solid white;
+}
+@keyframes icon {
+  50% {border-bottom-color:#e6b000;}
+}
+button{
+  background-color: white;
+  color:#f6a53b;
+  padding: 8px 25px;
+ 
+}
+@keyframes btn {
+  from {background-color: white;}
+  to {background-color: rgb(19, 18, 18);}
+}
+
+.active{
+  color: #e6b000;
+}
+.container a{
+  color: white;
+background: #575857 ;
+}
+.container a:hover{
+  color:#646063;
+  background: white;
+}
+body{
+  background:#BFDBFE;
+}
+.sub{
+  color: black;
+}
+

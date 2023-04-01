@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="icon" href="engineer.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title id="title">3-2 CSE(R15)|subjects</title>
+  <link rel="stylesheet"  href="style.css">
+  <link rel="stylesheet" id="styling" href="style.css">
+</head>
+<body>
+<nav>
+  <input type="checkbox"  id="check">
+  <label for="check" class="checkbtn" id="bar"><i class="fa fa-bars" aria-hidden="true" ></i></label>
+  <label class="name" ><a href="index.html" class="active" id="icon"  title="Home"> <span style="color: aliceblue;"> Exam</span> Day<span>.in</span></a>&nbsp;&nbsp;&nbsp;&nbsp;<small id="wel"></small></label>
+ <small id="wel"></small>
+  <button title="coming soon" id="login" onclick="document.getElementById('callout').style.display='block'">Login</button>
+  <ul>
+    <select name="dropdown" id="selectmenu" onclick="setTimeout(menu, 2000);">
+      <option value="32" selected>3-2 sem</option>
+      <option value="41">4-1 sem</option>
+      <option value="42">4-2 sem</option>
+    </select>
+      <li><a href="wt.html" id="s1"> WT</a></li>
+        <li><a href="dm.html" id="s2">DM & DW</a></li>
+          <li><a href="daa.html" id="s3">DAA</a></li>
+            <li><a href="ai.html" id="s4">AI</a></li>
+            <li><a href="cd.html" id="s5">CD</a></li>
+              <li><a href="dp.html" id="s6">DP</a></li>
+             <!-- <i class="fa fa-sun-o" aria-hidden="true" onclick="dark()"></i>-->
+  </ul>
+</nav>
+<i class="fa fa-bullhorn" id="anounce" aria-hidden="true"></i> <marquee behavior="scrolling" direction="left">Welcome to ExamDay.in.This Is What You're Searching For! Simple User Interface and Easy to study.</marquee>
+<section >
+  <div class="callout" id="callout">
+    <div class="callout-header">
+      <small>Roll No   :<input type="text" id="cname"></small><br>
+      <small>Password:<input type="password"></small><br>
+      <input type="button" onclick="welcome()" value="Login" style="padding:5px 15px; font-weight: bold ;">
+    </div>
+    <span class="closebtn"   onclick="this.parentElement.style.display='none';">×</span>
+  </div>
+  <div class="container">
+    <div class="shapes s1" onclick="shape()"><p id="c1"></p></div>
+    <div class="shapes s2" onclick="shape1()"><p id="c2"></p></div>
+    <div class="shapes s3"  onclick="shape2()"><p id="c3"></p></div>
+<h1>B.Tech <span id="sem">3-2</span> Sem CSE (R15 Jntua)</h1><br><br>
+<h1>SYLLABUS </h1><br><br>
+<a href="https://drive.google.com/file/d/1NoXPCo8aU4REEwn2dtY8rf6gjyN2w21m/view?usp=sharing" id="d1">Download <i class="fa fa-download" aria-hidden="true" for="d1"></i></a>
+  </div>
+
+</section>
+
+<footer>
+  <div class="foot">
+  <p>You can help us by sending useful documents like notes,imp questions,etc & Feedback: <a href="mailto:mbhanuprakash1052000@gmail.com?subject = Feedback&body = Message">Contact Us</a></p>
+<br>
+    <p>Designed by <span style="color: blue;"> Bhanu </span>& Developed by <span style="color: blue;">
+        Michael,Jeelan,Adil.</span></p>
+  </div>
+  <h3 id="counter" <i class="fa fa-eye" aria-hidden="true"></i>> </h3>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
